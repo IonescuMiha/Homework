@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <fieldset>
+        <legend>Pizza Order</legend>
+        <form action="list.html" method="get">
+            <label for="your_name"> Your name:</label>
+            <input required type="text" placeholder="Enter your name" name="your_name" id="your_name" minlength="3"
+                maxlength="10" /><br><br>
+            <label for="your_email"> Your email:</label>
+            <input required type="email" placeholder="Enter your email" name="your_email" id="your_email" /><br><br>
+
+
+            Topping:
+            <input type="radio" name="toping" id="supreme" value="Supreme" />
+            <label for="supreme">Supreme</label>
+            <input type="radio" name="toping" id="segetarian" value="Vegetarian" />
+            <label for="vegetarian">Vegetarian</label>
+            <input type="radio" name="toping" id="hawaian" value="Hawaian" checked />
+            <label for="hawaian">Hawaian</label>
+            <br><br>
+
+
+            Souce:
+            <select>
+                <option value selected="tomato">Tomato</option>
+                <option value="piri-piri">Piri-Piri</option>
+                <option value="tabasco">Tabasco</option>
+            </select>
+            <br><br>
+
+
+            Extras:
+            <input type="checkbox" name="Cheese" id="cheese" checked />
+            <label for="cheese">Cheese</label>
+            <input type="checkbox" name="Onions" id="onions" />
+            <label for="onions">Onions</label>
+            <input type="checkbox" name="Olives" id="olives" />
+            <label for="olives">Olives</label>
+            <br><br>
+            <label for="number">Number</label>
+            <input type="number" name="quantity"id=number min="1" max="7" />
+            <br><br>
+            <label for="data1">Adaugati data de livrare</label>
+            <input type="date" name="data1" id="data1" max="2023-11-30" min="2023-11-06" />
+
+            <br><br>
+            Delivery instructions:
+            <br><br>
+
+            <textarea required name="Delivery instructions" placeholder="Enter your delivery adress and phone number"
+                id="Delivery instructions" cols="100" rows="10"></textarea>
+            <br><br>
+            <input type="submit" value="Send Order" />
+            <input type="Reset" />
+
+
+
+    </fieldset>
+</body>
+
+</html>
