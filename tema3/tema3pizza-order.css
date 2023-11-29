@@ -1,0 +1,21 @@
+label {
+    color: skyblue;
+}
+
+.text {
+    border-color: green;
+}
+
+.email {
+    background-color: blue;
+}
+
+.button {
+    color: green;
+
+}
+
+body {
+
+    background-color: salmon;
+}
