@@ -1,0 +1,56 @@
+html,
+body {
+    margin: 15px;
+    padding: 15px;
+}
+
+.parent {
+    width: 1028px;
+    height: 422px;
+    display: block;
+    box-sizing: border-box;
+    border: dotted 5px #613d7c;
+    border-radius: 10px;
+    background-color: #bbc9b8;
+    position: relative;
+    text-align: center;
+
+}
+
+.child {
+    width: 400px;
+    height: 320px;
+    border: 4px dashed;
+    border-color: #613d7c;
+    border-radius: 10px;
+    position: absolute;
+    
+}
+
+.child.child1 {
+    background-color:#508e8b;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+}
+
+.child.child2 {
+    background-color:#a391a4;
+    border-radius: 10px;
+    bottom: 0;
+   left:280px;
+   z-index: 1;
+}
+
+.child.child3 {
+    background-color: #a8a97c;
+    border-radius: 10px;
+    top: 51px;
+    right: 20px;
+    bottom: 51px;
+}
+
+.first {
+    text-align: center;
+    margin-top: 20px;
+}

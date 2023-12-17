@@ -1,0 +1,45 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    background-color: #ced4da;
+    box-sizing: border-box;
+    position: relative;
+
+
+}
+
+.yellow,
+.green,
+.blue {
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+   
+}
+
+.yellow {
+    background-color: yellow;
+    position: absolute;
+    left:calc(50% - 100px);
+    top: calc(50% - 100px);
+}
+
+
+.blue {
+    background-color: blue;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.green {
+    background-color: green;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
